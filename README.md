@@ -25,3 +25,9 @@ Eg=> docker run --name my-new-container -p 8080:80 second-image:1.0.1
 
 In the above command we have mapped 8080 port of our local machine with the port number 80 of docker(on which our http server runs in docker).
 Note : Use -d to run the container in the background even if the VSCode is closed
+
+### `docker stop ContainerName`
+Stops a container. ContainerName can be small enough to help identify the container uniquely.
+
+### `docker start ContainerName`
+Starts a container. ContainerName can be small enough to help identify the container uniquely.
