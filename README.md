@@ -4,6 +4,10 @@ This is a basic demonstration of using docker on local windows machine
 
 Please refer to - https://www.youtube.com/watch?v=WcQ3-M4-jik by IAmTimCorey for more detailed videos.
 
+# Installing WSL(Windows Subsystem for Linux)
+
+Go to the following link and run commands in step1 and step3 on cmd(run as administrator)
+
 # Basic commands
 
 ### `docker images`
