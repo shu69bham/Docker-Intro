@@ -6,5 +6,16 @@ Please refer to - https://www.youtube.com/watch?v=WcQ3-M4-jik by IAmTimCorey for
 
 # Basic commands
 
-### `docker images` - 
+### `docker images`
 Shows a list of all images
+
+### `docker build -t MyImageName:TagName .`
+Build a new image based on the configuration in the dockerfile(Don't forget the dot in the end of the command)
+Eg=> docker build -t second-image:1.0.1 .
+
+### `docker run --name MyContainerName -p InputPort:OutputDockerPort ImageNameWithTag`
+Creates a new container with the images passed. Maps the request coming on InputPorts to OutputDockerPort.
+Eg=> docker run --name my-new-container -p 8080:80 second-image:1.0.1
+
+In the above command we have mapped 8080 port of our local machine with the port number 80 of docker(on which our http server runs in docker).
+Note : Use -d to run the container in the background even if the VSCode is closed
