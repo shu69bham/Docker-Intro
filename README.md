@@ -7,6 +7,7 @@ Please refer to - https://www.youtube.com/watch?v=WcQ3-M4-jik by IAmTimCorey for
 # Installing WSL(Windows Subsystem for Linux)
 
 Go to the following link and run commands in step1 and step3 on cmd(run as administrator)
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 # Basic commands
 
