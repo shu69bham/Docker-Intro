@@ -1,6 +1,7 @@
 # Docker-Intro
 
-This is a basic demonstration of using docker on local windows machine
+This is a basic demonstration of using docker on local windows machine.
+We are running a httpd server in our container to run a website containing a basic html file.
 
 Please refer to - https://www.youtube.com/watch?v=WcQ3-M4-jik by IAmTimCorey for more detailed videos.
 
