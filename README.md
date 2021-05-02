@@ -13,6 +13,9 @@ Go to the following link - https://docs.microsoft.com/en-us/windows/wsl/install-
 ### `docker images`
 Shows list of all images.
 
+### `docker images history`
+Shows history of all the subimages used in the image.
+
 ### `docker build -t MyImageName:TagName .`
 Build a new image based on the configuration in the dockerfile(Don't forget the dot in the end of the command).
 
