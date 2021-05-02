@@ -37,3 +37,9 @@ Stops a container. ContainerName can be small enough to help identify the contai
 
 ### `docker start ContainerName`
 Starts a container. ContainerName can be small enough to help identify the container uniquely.
+
+### `docker rm ContainerName`
+Removes a container. ContainerName can be small enough to help identify the container uniquely.
+
+### `docker image rm ImageName`
+Removes an image. ImageName can be small enough to help identify the image uniquely.
