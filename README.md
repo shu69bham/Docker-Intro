@@ -13,7 +13,7 @@ Go to the following link - https://docs.microsoft.com/en-us/windows/wsl/install-
 ### `docker images`
 Shows list of all images.
 
-### `docker images history`
+### `docker image history`
 Shows history of all the subimages used in the image.
 
 ### `docker build -t MyImageName:TagName .`
